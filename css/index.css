@@ -5,7 +5,7 @@ body{
   background-color: #E9A6A6;
 }
 
- 
+ /* landing page  */
 .landing-page{
   margin: 0 auto 0 auto;
   /* background-color: #F7F7F7; */
@@ -22,8 +22,9 @@ body{
 }
 .cfc-card{
   /* padding-left: 100px; */
-  padding-top:100px;
+  padding-top:125px;
   font-family: cursive;
+  padding-left: 125px;
   /* background-color: bisque; */
 }
 .card{
@@ -41,4 +42,8 @@ hr{
   background-color: bisque;
   opacity: 1;
   /* text-align: center; */
+}
+.abhishek-pic{
+  border-radius: 25px;
+  padding: 55px , 55px , 0 , 55px;
 }
