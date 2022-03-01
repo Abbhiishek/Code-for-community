@@ -66,6 +66,7 @@ hr{
 /* about section starts here  */
 #about{
   margin-top: 25px;
+  margin-bottom: 25px;
 
 }
 .about-video{
@@ -110,3 +111,22 @@ hr{
 
 
 /* FEATURES ends here   */
+
+
+
+
+
+
+
+.footer{
+  text-align: center;
+  line-height: 1.5;
+  font-family: 'Poppins';
+  font-size: small;
+  background-color: #6610f2;
+  height:150px;
+  color: antiquewhite;
+}
+.footer-details{
+  padding-top: 50px;
+}
