@@ -1,16 +1,27 @@
 /* .landing-page{
   background-image: url('landing-page-bg.jpg');
 } */
+
+:root{
+  --discord-color :#6610f2;
+}
 body{
-  background-color: #E9A6A6;
+  background-color: #ffffff;
 }
 
+
+.navbar-brand{
+  font-family: 'Montserrat-bold';
+}
  /* landing page  */
 .landing-page{
   margin: 0 auto 0 auto;
   /* background-color: #F7F7F7; */
   background-image: url('/assests/landingbg.jpg') ;
-  background-repeat: no-repeat;
+  width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .main-content{
   border-radius: 5px;
@@ -18,7 +29,7 @@ body{
 }
 
 .gotocourse{
-  /* margin-left: 120px; */
+  cursor: auto;
 }
 .cfc-card{
   /* padding-left: 100px; */
@@ -29,6 +40,7 @@ body{
 }
 .card{
   background-color: bisque;
+  margin-left: 50px;
 }
 .card-body{
   align-items: center;
@@ -46,4 +58,55 @@ hr{
 .abhishek-pic{
   border-radius: 25px;
   padding: 55px , 55px , 0 , 55px;
+  width: 90%;
+  margin-left:35px;
 }
+
+
+/* about section starts here  */
+#about{
+  margin-top: 25px;
+
+}
+.about-video{
+  padding-top: 60px;
+}
+.about{
+  text-align: center;
+}
+.about-info{
+  font-size: 1.5rem;
+  font-family: 'Poppins';
+  text-align: center;
+  
+}
+.about-info-list{
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-right: 16px;
+  padding-bottom: 25px;;
+}
+.about-para{
+  text-align: justify;
+  font-family: "Poppins";
+  font-weight: lighter;
+}
+.join-discord-about{
+  margin-left:28%;
+  margin-top: 25px;
+  width:350px;
+  font-size: 1.8rem;
+}
+.join-discord-about:hover{
+  background-color: var(--discord-color);
+}
+
+/* about section ends here  */
+
+
+/* FEATURES starts here   */
+
+
+
+
+/* FEATURES ends here   */
