@@ -55,7 +55,6 @@
       </div>
     </div>
   </nav>
-
   <!-- landing page  -->
   <section class="container-fluid landing-page">
     <div class="container main-content ">
@@ -64,7 +63,7 @@
           <img src="assests/abhishek-landing-page.jpeg" class="abhishek-pic" width="500px" alt="abhishek-pic" />
         </div>
         <div class="col-lg-6  cfc-card">
-          <div class="card aboutcard" style="width: 25rem; height: 25rem;">
+          <div class="card aboutcard">
             <img src="assests/landing-page-bg.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title text-center">Code For Community</h5>
@@ -73,7 +72,7 @@
                 A Student Community For Learning Tutorial
               </p>
 
-              <a href="#" class="btn btn-primary gotocourse ">Go To Courses</a>
+              <a href="#Courses" class="btn btn-primary gotocourse ">Go To Courses</a>
 
             </div>
           </div>
@@ -81,14 +80,27 @@
       </div>
     </div>
   </section>
+  <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="..." class="rounded me-2" alt="...">
+      <strong class="me-auto">Abhishek Kushwaha</strong>
+      <small>11 mins ago</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Hey , This is Abhishek Kushwaha <br>Welcome To Code For Community Website.
+    </div>
+  </div>
+  <div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="d-flex">
+      <div class="toast-body">
+      Hey , This is Abhishek Kushwaha <br>Welcome To Code For Community Website.
+     </div>
+      <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+  </div>
   <!-- landing page ends here  -->
   <!-- --------------------------------------------------------------------- -->
-
-
-
-
-
-
 
   <!-- about page starts here  -->
   <section id="about">
@@ -139,13 +151,7 @@
       </div>
     </div>
   </section>
-
-
-
-
-
   <!-- -------------------------------------------------------------          -->
-
   <!-- features section -->
   <section id="feature">
     <div class="container">
@@ -159,7 +165,7 @@
             <h2>Resources</h2>
             <br>
             <br>
-            <p>Get all the resourses from different sites and domain in one place and organizsed.</p>
+            <h5>Get all the resourses from different sites and domain in one place and organizsed.</h5>
           </div>
           
 
@@ -173,7 +179,7 @@
             <br>
             <br>
             <br>
-            <p>We have the best Roadmaps for developers which are followed by many.</p>
+            <h5>We have the best Roadmaps for developers which are followed by many.</h5>
           </div>
           
 
@@ -186,7 +192,7 @@
             <h2>Projects</h2>
             <br>
             <br>
-            <p>Learn by doing and apply your knowledge via projects and open source contributions.</p>
+            <h5>Learn by doing and apply your knowledge via projects and open source contributions.</h5>
           </div>
         </div>
         <div class="col-lg-6">
@@ -197,7 +203,7 @@
             <h2>Structured Learning</h2>
             <br>
             <br>
-            <p>Learning made easy. Complete syllabus is covered while never compromising on quality.</p>
+            <h5>Learning made easy. Complete syllabus is covered while never compromising on quality.</h5>
           </div>
         </div>      
         <div class="col-lg-6">
@@ -208,7 +214,7 @@
             <h2>Notes</h2>
             <br>
             <br>
-            <p>Get complete notes for all Topics so that you can focus on learning and practising.</p>
+            <h5>Get complete notes for all Topics so that you can focus on learning and practising.</h5>
           </div>
         </div>      
         <div class="col-lg-6">
@@ -220,7 +226,7 @@
             <br>
             <br>
             <br>
-            <p>Our Student Leads teachs the concept to community students.</p>
+            <h5>Our Student Leads teaches the concept to community students.</h5>
           </div>
         </div>      
       </div>
@@ -230,64 +236,144 @@
 
   <section id="Courses">
     <div class="container">
-      <h1>COURSES</h1>
+      <h1 class="white-text">COURSES</h1>
       <hr class="mx-auto feature-hr">
-      <div class="row g-5  row-cols-1 row-cols-md-2 courses-card">
-        <div class="col">
-          <div class="card">
-            <img src="assests/f034583d34bd2bd5e52732a7ecc96669.jpg" class="card-img-top" alt="...">
+      <p class="white-text">Check Out some of our Awesome Courses.</p>
+      <br>
+      <br>
+      
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="card courses-cards">
+            <img src="assests/f034583d34bd2bd5e52732a7ecc96669.jpg" width="12%" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">PYTHON</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h3 class="card-title">PYTHON</h3>
+              <hr class="mx-auto courses-hr">
+              <h6 class="card-text">Become a Full Stack Python Developer <br> <br><em>Zero to hero</em> </h6>
+              <div class="card-footer">
+                <button type="button" class="btn btn-secondary" id="liveToastBtn">Explore</button>
+              </div>
+                
+              
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <img src="assests/f034583d34bd2bd5e52732a7ecc96669.jpg" class="card-img-top" alt="...">
+        <div class="col-lg-3">
+          <div class="card courses-cards">
+            <img src="assests/f034583d34bd2bd5e52732a7ecc96669.jpg" class="card-img-top courses-cards" alt="...">
             <div class="card-body">
-              <h5 class="card-title">JAVA</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h3 class="card-title">JAVA</h3>
+              <hr class="mx-auto courses-hr">
+              <h6 class="card-text">Java is 😍</h6>
+              <div class="card-footer">
+                <button type="button" class="btn btn-secondary" id="liveToastBtn">Explore</button>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
+        <div class="col-lg-3 ">
+          <div class="card courses-cards">
             <img src="assests/f034583d34bd2bd5e52732a7ecc96669.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">C</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <h3 class="card-title">C</h3>
+              <hr class="mx-auto courses-hr">
+              <h6 class="card-text">Lets learn Mother of Programming Language.</h6>
+              <div class="card-footer">
+                <button type="button" class="btn btn-secondary" id="liveToastBtn">Explore</button>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
+        <div class="col-lg-3">
+          <div class="card courses-cards">
             <img src="assests/f034583d34bd2bd5e52732a7ecc96669.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">C++</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h3 class="card-title">C++</h3>
+              <hr class="mx-auto courses-hr">
+              <h6 class="card-text">Lets do some CPP</h6>
+              <div class="card-footer">
+                <button type="button" class="btn btn-secondary" id="liveToastBtn">Explore</button>
+              </div>
             </div>
           </div>
         </div>
+        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 110000000">
+          <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true"  data-autohide="false">
+            <div class="toast-header">
+              <img src="..." class="rounded me-2" alt="...">
+              <strong class="me-auto">Code For Community</strong>
+              <small>Now</small>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+              The Course will be available soon !
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
       </div>
     </div>
     <div>
-      <a href="#" class="btn btn-outline-dark">Join Us On Discord</a>
+      <a href="#" class="btn btn-warning seemorecourses">See More</a>
     </div>
 
 
     
   </section>
-
-
-
-
+  <section id="testimonials">
+    <div class="container"> 
+      <h1>TESTIMONIALS</h1>
+      <hr class="mx-auto feature-hr">
+      <p>What does the community have to say about us?</p>     
+      <br>
+      <br>
+      <div id="carouselExampleControls" class="carousel slide mt-3" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+            <img class="testimonial-image" src="assests/favicon.ico" alt="dog-profile">
+             <em>Pebbles, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+            <img class="testimonial-image" src="assests/favicon.ico" alt="dog-profile">
+             <em>Pebbles, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae maxime rerum distinctio mollitia consequuntur, porro, exercitationem doloremque laboriosam eligendi tenetur asperiores? Hic culpa ratione alias qui cumque inventore tenetur similique officia itaque ducimus pariatur rerum ipsa laborum quia sit, unde in ipsam sequi? Ea earum alias, commodi nam soluta nihil et cum in nulla sint rerum, maiores ducimus illo numquam doloremque enim optio inventore quo adipisci odit harum tempore doloribus. Nostrum dolores eos molestiae hic beatae excepturi, ratione facere optio, qui, cum dolore sit quasi dignissimos repellat! Expedita, nihil explicabo? Ea saepe magnam nam ex culpa rem aliquid voluptate corporis.</h2>
+            <img class="testimonial-image" src="assests/favicon.ico" alt="dog-profile">
+             <em>Pebbles, New York</em>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
 
 
   <footer class="footer">
     <div class="footer-details">
-      Contact : abhishek@gmail.com <br>
-    @2022 | CodeForCommunity | All Rights Reserved.
+      <h3>Contact : abhishek@codeforcommunity.codes <br> <br>
+    @2022 | CodeForCommunity | All Rights Reserved. </h3>
+    <br> <br>
     </div>
     
   </footer>
@@ -300,10 +386,24 @@
     crossorigin="anonymous"></script> -->
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
-  
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
-   
+<!--   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+     -->
+     <script>
+      document.addEventListener("DOMContentLoaded", function(){
+          var btn = document.getElementById("liveToastBtn");
+          var element = document.getElementById("liveToast");
+      
+          // Create toast instance
+          var myToast = new bootstrap.Toast(element);
+      
+          btn.addEventListener("click", function(){
+              myToast.show();
+          });
+      });
+      </script>
+      
 </body>
 
 </html>
