@@ -35,10 +35,9 @@ body{
   cursor: auto;
 }
 .cfc-card{
-  /* padding-left: 100px; */
-  padding-top:125px;
-  font-family: cursive;
-  padding-left: 125px;
+  
+  font-family: "Poppins";
+  padding: 100px;
   /* background-color: bisque; */
 }
 .aboutcard{
@@ -148,21 +147,72 @@ hr{
 
 /* FEATURES ends here   */
 
+/* courses starts here   */
 
 
 
 
 
 
+
+
+
+/* Courses ends here  */
+
+
+
+/* testimonial starts here  */
+
+#testimonials{
+  
+  background-color: darksalmon;
+  text-align: center;
+  color:black;
+}
+/* .testimonial-images{
+  width:50%;
+  text-align: center;
+  padding: 55px;
+  border:2px;
+  border-radius: 25px;
+} */
+
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-image{
+  width: 10%;
+border-radius: 100%;
+margin: 20px;
+}
 .footer{
   text-align: center;
   line-height: 1.5;
   font-family: 'Poppins';
   font-size: small;
   background-color: #6610f2;
-  height:150px;
+  /* height:150px; */
   color: antiquewhite;
+  /* margin-bottom: 25px; */
+  padding-bottom: 50px;
 }
 .footer-details{
   padding-top: 50px;
+  /* padding-bottom: 50px; */
+}
+
+
+@media (max-width: 900px){
+  .nav>.container{
+    margin: 0;
+}
+
+.landing-page>.cfc-card{
+      /* padding-left: 100px; */
+      padding-top: 125px;
+      font-family: "Poppins";
+      padding-left: 125px;
+      /* background-color: bisque; */
+}
+
 }
