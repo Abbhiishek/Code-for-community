@@ -2,206 +2,227 @@
   background-image: url('landing-page-bg.jpg');
 } */
 
-:root{
-  --discord-color :#6610f2;
-}
-body{
-  background-color: #ffffff;
+:root {
+    --discord-color: #6610f2;
 }
 
-h5{
-  font-weight: lighter;
-  /* font-size: small; */
-  
-}
-.container{
-  text-align: center;
+body {
+    background-color: #ffffff;
 }
 
-.navbar-brand{
-  font-family: 'Montserrat-bold';
+h5 {
+    font-weight: lighter;
+    /* font-size: small; */
 }
- /* landing page  */
-.landing-page{
-  margin: 0 auto 0 auto;
-  /* background-color: #F7F7F7; */
-  background-image: url('/assests/landingbg.jpg') ;
-  width: 100%;
+
+.container {
+    text-align: center;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat-bold';
+}
+
+
+/* landing page  */
+
+.landing-page {
+    margin: 0 auto 0 auto;
+    /* background-color: #F7F7F7; */
+    background-image: url('/assests/landingbg.jpg');
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
-.main-content{
-  border-radius: 5px;
-  /* background-color: #ECECEC; */
+
+.main-content {
+    border-radius: 5px;
+    /* background-color: #ECECEC; */
 }
 
-.gotocourse{
-  cursor: auto;
+.gotocourse {
+    cursor: auto;
 }
-.cfc-card{
-  
-  font-family: "Poppins";
-  padding: 100px;
-  /* background-color: bisque; */
+
+.cfc-card {
+    font-family: "Poppins";
+    padding: 100px;
+    /* background-color: bisque; */
 }
-.aboutcard{
-  background-color: bisque;
-  /* margin-left: 50px; */
+
+.aboutcard {
+    background-color: bisque;
+    /* margin-left: 50px; */
 }
-.card-body{
-  align-items: center;
-  text-align: center;
+
+.card-body {
+    align-items: center;
+    text-align: center;
 }
-hr{
-  width: 30%;
-  height: 0;
-  border-top: dotted;
-  border-color: aqua;
-  background-color: bisque;
-  opacity: 1;
-  /* text-align: center; */
+
+hr {
+    width: 30%;
+    height: 0;
+    border-top: dotted;
+    border-color: aqua;
+    background-color: bisque;
+    opacity: 1;
+    /* text-align: center; */
 }
-.abhishek-pic{
-  border-radius: 25px;
-  padding: 55px , 55px , 0 , 55px;
-  width: 90%;
-  margin-left:35px;
+
+.abhishek-pic {
+    border-radius: 25px;
+    padding: 55px, 55px, 0, 55px;
+    width: 90%;
+    margin-left: 35px;
 }
 
 
 /* about section starts here  */
-#about{
-  margin-top: 25px;
-  margin-bottom: 25px;
 
+#about {
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
-.about-video{
-  padding-top: 60px;
+
+.about-video {
+    padding-top: 60px;
 }
-.about{
-  text-align: center;
+
+.about {
+    text-align: center;
 }
-.about-info{
-  font-size: 1.5rem;
-  font-family: 'Poppins';
-  text-align: center;
-  
+
+.about-info {
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+    text-align: center;
 }
-.about-info-list{
-  padding-left: 25px;
-  padding-top: 25px;
-  padding-right: 16px;
-  padding-bottom: 25px;;
+
+.about-info-list {
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-right: 16px;
+    padding-bottom: 25px;
+    ;
 }
-.about-para{
-  text-align: justify;
-  font-family: "Poppins";
-  font-weight: lighter;
+
+.about-para {
+    text-align: justify;
+    font-family: "Poppins";
+    font-weight: lighter;
 }
-.join-discord-about{
-  /* margin-left:28%; */
-  margin-top: 25px;
-  width:350px;
-  font-size: 1.8rem;
+
+.join-discord-about {
+    /* margin-left:28%; */
+    margin-top: 25px;
+    width: 350px;
+    font-size: 1.8rem;
 }
-.join-discord-about:hover{
-  background-color: var(--discord-color);
+
+.join-discord-about:hover {
+    background-color: var(--discord-color);
 }
+
 
 /* about section ends here  */
 
 
 /* FEATURES starts here   */
 
-#feature{
-  background-color: darksalmon;
-  padding-top: 25px;
-  padding-bottom: 25px;
+#feature {
+    background-color: darksalmon;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
-.feature-hr{
-  width: 15%;
-  border-top: dotted;
-  border-color: rgb(255, 251, 0);
-  background-color: rgba(255, 228, 196, 0);
-  opacity: 1;
+
+.feature-hr {
+    width: 15%;
+    border-top: dotted;
+    border-color: rgb(255, 251, 0);
+    background-color: rgba(255, 228, 196, 0);
+    opacity: 1;
 }
-.features-cards{
-  /* background-color: beige; */
-  border-radius: 12px;
-  /* padding:16px; */
-  margin-bottom: 1.1rem;
-  
+
+.features-cards {
+    /* background-color: beige; */
+    border-radius: 12px;
+    /* padding:16px; */
+    margin-bottom: 1.1rem;
 }
-.features-card{
-  background-color: rgba(245, 245, 220, 0.219);
-  border-radius: 12px;
-  padding:2.4rem;
-  /*width: 240px;
+
+.features-card {
+    background-color: rgba(245, 245, 220, 0.219);
+    border-radius: 12px;
+    padding: 2.4rem;
+    /*width: 240px;
   margin: 12px; */
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
-.features-card:hover{
-  background-color: rgba(245, 245, 220, 0.377);
-  box-shadow: 2px snow;
+
+.features-card:hover {
+    background-color: rgba(245, 245, 220, 0.377);
+    box-shadow: 2px snow;
 }
-.fa-screwdriver-wrench:hover{
-  color: indigo;
+
+.fa-screwdriver-wrench:hover {
+    color: indigo;
 }
 
 
 /* FEATURES ends here   */
 
+
 /* courses starts here   */
-#Courses{
-  text-align:center;
-  padding: 50px 0;
-  background-color: black;
-}
-.white-text{
-  color:#ffffff
-}
-.courses-hr{
-  background-color:rgba(0, 0, 0, 0);
-  /* border:100px; */
-  color: gainsboro;
-  border-color: gainsboro;
-  width:45%;
 
+#Courses {
+    text-align: center;
+    padding: 50px 0;
+    background-color: black;
 }
 
-.courses-cards{
-  background-color: rgb(0, 0, 0);
-  color:#ffffff;
-  
-}
-.courses-cards :hover{
-  background-color: rgb(70, 69, 70);
-  color:#ffffff;
-  
-}
-.seemorecourses{
-  margin-top: 100px;
-  margin-bottom: 10px;
+.white-text {
+    color: #ffffff
 }
 
+.courses-hr {
+    background-color: rgba(0, 0, 0, 0);
+    /* border:100px; */
+    color: gainsboro;
+    border-color: gainsboro;
+    width: 45%;
+}
 
+.courses-cards {
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+}
 
+.courses-cards :hover {
+    background-color: rgba(70, 69, 70, 0.11);
+    color: #ffffff;
+}
 
+.seemorecourses {
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
 
 
 /* Courses ends here  */
 
 
-
 /* testimonial starts here  */
 
-#testimonials{
-  padding: 50px 0;
-  background-color: darksalmon;
-  text-align: center;
-  color:black;
+#testimonials {
+    padding: 50px 0;
+    background-color: darksalmon;
+    text-align: center;
+    color: black;
 }
+
+
 /* .testimonial-images{
   width:50%;
   text-align: center;
@@ -210,47 +231,48 @@ hr{
   border-radius: 25px;
 } */
 
-.carousel-item{
-  padding: 7% 15%;
-}
-.testimonial-image{
-  width: 10%;
-border-radius: 100%;
-margin: 20px;
-}
-.footer{
-  text-align: center;
-  line-height: 1.5;
-  font-family: 'Poppins';
-  font-size: small;
-  background-color: #6610f2;
-  /* height:150px; */
-  color: antiquewhite;
-  /* margin-bottom: 25px; */
-  padding-bottom: 50px;
-}
-.footer-details{
-  padding-top: 50px;
-  /* padding-bottom: 50px; */
+.carousel-item {
+    padding: 7% 15%;
 }
 
-
-@media (max-width: 900px){
-  .nav>.container{
-    margin: 0;
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
 }
 
-.landing-page>.cfc-card{
-      /* padding-left: 100px; */
-      padding-top: 125px;
-      font-family: "Poppins";
-      padding-left: 125px;
-      /* background-color: bisque; */
+.footer {
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'Poppins';
+    font-size: small;
+    background-color: #6610f2;
+    /* height:150px; */
+    color: antiquewhite;
+    /* margin-bottom: 25px; */
+    padding-bottom: 50px;
 }
-.aboutcard{
-  margin: 0px;
-  width:100%;
-  height:100%;
-  text-align: center;
+
+.footer-details {
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
 }
+
+@media (max-width: 900px) {
+    .nav>.container {
+        margin: 0;
+    }
+    .landing-page>.cfc-card {
+        /* padding-left: 100px; */
+        padding-top: 125px;
+        font-family: "Poppins";
+        padding-left: 125px;
+        /* background-color: bisque; */
+    }
+    .aboutcard {
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
 }
